@@ -15,7 +15,7 @@ This type of authentication is called *security by obscurity*. On its own, it's 
 
 A major issue immediately evident upon learning how it works is its vulnerability to replay attacks: an attacker can simply listen for the hard-coded sequence.
 
-As a fun side-project, I decided to work on a solution on my own, without really looking at already-existing solutions.
+As a fun side-project, I decided to work on a solution of my own, without really looking at already-existing solutions.
 The obvious solution was to not have a hard-coded sequence, but instead generate a new random one at each connection.
 
 So that's what I ended up doing: in essence, the program is really simple, it builds on top of [knockd](https://linux.die.net/man/1/knockd) and simply rewrites the configuration with a random sequence.
