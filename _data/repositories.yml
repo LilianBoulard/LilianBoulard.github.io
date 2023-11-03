@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - LilianBoulard
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - skrub-data/skrub
+  - sami-dca/sami_dca
+  - LilianBoulard/prompt-forge
+  - LilianBoulard/parlez
+  - LilianBoulard/activities
+  - LilianBoulard/PKS
+  - LilianBoulard/barcode
