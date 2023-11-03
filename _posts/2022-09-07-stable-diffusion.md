@@ -3,8 +3,8 @@ layout: post
 title: Self-hosting Stable Diffusion on Windows
 date: 2022-09-07 17:13:00-0100
 description: This very short guide will show you how to run Stable Diffusion on Windows, and create images easily with a command-line interface.
-tags: formatting math
-categories: sample-posts
+tags: stable-diffusion self-hosting windows github
+categories: 
 related_posts: false
 ---
 
