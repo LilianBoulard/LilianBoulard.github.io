@@ -2,7 +2,7 @@
 layout: page
 title: Sami
 description: A decentralized communication app
-importance: 3
+importance: 1
 category: fun
 ---
 
