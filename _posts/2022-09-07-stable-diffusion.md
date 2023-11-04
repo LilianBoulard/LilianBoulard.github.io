@@ -54,7 +54,13 @@ Example of a prompt:
 python stable_diffusion.py --prompt "a cat on a car"
 ```
 
-![0-a+cat+on+a+car.png](../assets/img/0-acatonacar.png)
+<div class="row">
+    <div class="col-sm-1 mt-5 mt-md-0"></div>
+    <div class="col-sm-4 mt-5 mt-md-0">
+        {% include figure.html path="assets/img/0-acatonacar.png" title="a cat on a car" class="img-fluid" %}
+    </div>
+    <div class="col-sm-1 mt-5 mt-md-0"></div>
+</div>
 
 ## Bonus: disable NSFW filter
 
