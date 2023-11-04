@@ -2,7 +2,6 @@
 layout: page
 title: PKS
 description: A dynamic port-knocking system, for securing access to servers
-img: assets/img/12.jpg
 importance: 3
 category: fun
 ---

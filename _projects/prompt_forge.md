@@ -2,7 +2,6 @@
 layout: page
 title: prompt-forge
 description: An advanced system for industrial-scale prompt generation
-img: assets/img/12.jpg
 importance: 2
 category: fun
 ---
