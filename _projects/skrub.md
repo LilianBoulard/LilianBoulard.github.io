@@ -15,8 +15,8 @@ I started working on the library as soon as I joined Inria, in late 2020, and ha
 At its inception, the library had one objective: encoding non-normalized tabular data. For a congress at [École Normale Supérieure Paris-Saclay](https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay), I created a short video showcasing the use cases and tools provided by the library at the time.
 You should check it out if you're interested to know what the lib does!
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row">
+    <div class="mt-3 mt-md-0">
         {% include video.html path="https://www.youtube.com/embed/_GNaaeEI2tg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
