@@ -8,11 +8,14 @@ related_publications: boulard:euro:2022, boulard:ens:2022, stojanovic:euro:2023
 ---
 
 [Skrub](https://github.com/skrub-data/skrub) (formerly [dirty_cat](https://github.com/dirty-cat/dirty_cat)) is a library for prepping tabular data for machine learning.
+
 It is closely linked to [scikit-learn](https://github.com/scikit-learn/scikit-learn), since both libraries share common core contributors (such as [Vincent Maladiere](https://github.com/Vincent-Maladiere), [Guillaume Lemaître](https://github.com/glemaitre), [Julien Jerphanion](https://github.com/jjerphan), and of course, [Gaël Varoquaux](https://github.com/GaelVaroquaux)).
 
 I started working on the library as soon as I joined Inria, in late 2020, and have been contributing ever since.
 
-At its inception, the library had one objective: encoding non-normalized tabular data. For a congress at [École Normale Supérieure Paris-Saclay](https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay), I created a short video showcasing the use cases and tools provided by the library at the time.
+At its inception, the library had one objective: encoding non-normalized tabular data.
+For a congress at [École Normale Supérieure Paris-Saclay](https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay), I created a short video showcasing the use cases and tools provided by the library at the time.
+
 You should check it out if you're interested to know what the lib does!
 
 <div class="row">
