@@ -6,6 +6,7 @@ description: This very short guide will show you how to run Stable Diffusion on 
 tags: stable-diffusion self-hosting windows github
 categories: 
 related_posts: false
+thumbnail: assets/img/0-acatonacar.png
 ---
 
 > This blog post was written at a time before AUTOMATIC1111's webui. Today, it is a much better choice.
