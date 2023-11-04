@@ -10,11 +10,11 @@ During the later half of high school, a few friends and I were very interested i
 This was before the [2017-2018 boom](https://en.wikipedia.org/wiki/Cryptocurrency_bubble#2017_boom_and_2018_crash), at a time were we mined a little bit and toyed with hardware for fun.
 
 <div class="row">
-    <div class="col-sm mt-1 mt-md-0"></div>
-    <div class="col-sm mt-6 mt-md-0">
+    <div class="col-sm-1 mt-5 mt-md-1"></div>
+    <div class="col-sm-4 mt-5 mt-md-4">
         {% include figure.html path="assets/img/rig.jpg" title="my 2017 makeshift mining rig" class="img-fluid" %}
     </div>
-    <div class="col-sm mt-1 mt-md-0"></div>
+    <div class="col-sm-1 mt-5 mt-md-1"></div>
 </div>
 <div class="caption">
     I even built my own makeshift mining rig, isn't that art!
