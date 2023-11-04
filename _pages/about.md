@@ -16,5 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Lilian, from France. I graduated with a master's degree from [Université Paris-Saclay](https://en.wikipedia.org/wiki/Paris-Saclay_University) in computer science with a major in data science and machine learning
+Hi, I'm Lilian, from France. I graduated with a master's degree from [Université Paris-Saclay](https://en.wikipedia.org/wiki/Paris-Saclay_University) in computer science with a major in data science and machine learning.
+
 Recently, I worked as a machine learning research engineer at [Inria](https://en.wikipedia.org/wiki/French_Institute_for_Research_in_Computer_Science_and_Automation), under the supervision of [Gaël Varoquaux](https://gael-varoquaux.info/about.html).
