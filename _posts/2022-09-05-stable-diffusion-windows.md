@@ -10,6 +10,7 @@ thumbnail: assets/img/0-acatonacar.png
 ---
 
 > This blog post was written at a time before AUTOMATIC1111's webui. Today, it is a much better choice.
+> 
 > However, there are some use cases for using Stable Diffusion this way, so this post stays 😃
 {: .block-warning }
 
