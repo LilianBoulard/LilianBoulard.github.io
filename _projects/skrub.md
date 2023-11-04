@@ -28,7 +28,7 @@ Starting in 2023, we have expended its scope significantly, and I'm happy to hav
 
 <div class="row justify-content-center">
     <div class="col-7 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/top-contrib-skrub.jpg" title="Top 1 contributor to skrub with 300+ commits" class="img-fluid" %}
+        {% include figure.html path="assets/img/top-contrib-skrub.png" title="Top 1 contributor to skrub with 300+ commits" class="img-fluid" %}
     </div>
 </div>
 <div class="caption">
