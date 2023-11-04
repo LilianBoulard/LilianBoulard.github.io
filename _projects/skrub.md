@@ -18,10 +18,8 @@ For a congress at [École Normale Supérieure Paris-Saclay](https://en.wikipedia
 
 You should check it out if you're interested to know what the lib does!
 
-<div class="rowmt-3">
-    <div class="col-10 mt-3 mt-md-0">
-        {% include video.html path="https://www.youtube.com/embed/_GNaaeEI2tg" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row mt-3">
+    {% include video.html path="https://www.youtube.com/embed/_GNaaeEI2tg" class="img-fluid rounded z-depth-1" %}
 </div>
 
 Starting in 2023, we have expended its scope significantly, and I'm happy to have contributed to both the technology behind it and the promotion at multiple conferences and events!
