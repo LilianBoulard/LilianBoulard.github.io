@@ -18,8 +18,8 @@ For a congress at [École Normale Supérieure Paris-Saclay](https://en.wikipedia
 
 You should check it out if you're interested to know what the lib does!
 
-<div class="row">
-    <div class="mt-3 mt-md-0">
+<div class="rowmt-3">
+    <div class="col-10 mt-3 mt-md-0">
         {% include video.html path="https://www.youtube.com/embed/_GNaaeEI2tg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
