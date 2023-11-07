@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Skrub
-description: a library for prepping tables for machine learning
+description: A library for prepping tables for machine learning
 importance: 1
 category: work
 related_publications: boulard:euro:2022, boulard:ens:2022, stojanovic:euro:2023
