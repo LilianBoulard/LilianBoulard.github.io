@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: Image taken at the Passerelle des Gorges du Lignon, a beautiful place!
+  more_info: Image taken at the <a href="https://maps.app.goo.gl/3VkHmPRyWbLaCVUp9" target="_blank">Passerelle des Gorges du Lignon</a>, a beautiful place!
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
