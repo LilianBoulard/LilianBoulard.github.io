@@ -22,7 +22,7 @@ You should check it out if you're interested to know what the lib does!
     {% include video.html path="https://www.youtube.com/embed/_GNaaeEI2tg" class="img-fluid rounded z-depth-1" %}
 </div>
 
-Starting in 2023, we have expended its scope significantly, and I'm happy to have contributed to both the technology behind it and the promotion at multiple conferences and events!
+Starting in 2023, we have expended its scope significantly, and I'm happy to have contributed to the decisions -- both technical and philosophical --, the technology and the promotion at multiple conferences and events!
 
 <div class="row justify-content-center">
     <div class="col-7 mt-3 mt-md-0">
@@ -30,7 +30,7 @@ Starting in 2023, we have expended its scope significantly, and I'm happy to hav
     </div>
 </div>
 <div class="caption">
-    I'm (quite proudly) the main contributor to the code 😊
+    I'm (quite proudly) top #1 contributor to the code 😊
 </div>
 
 Although it's not my full-time job anymore, I'm still contributing on-and-off to the library, most often giving input on directions and technical decisions.

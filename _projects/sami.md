@@ -18,16 +18,17 @@ This was before the [2017-2018 boom](https://en.wikipedia.org/wiki/Cryptocurrenc
     I even built my own makeshift mining rig, isn't that art!
 </div>
 
-Diving into the [Ethereum ecosystem](https://fr.wikipedia.org/wiki/Ethereum), I found out about [Ethereum Whisper](https://ethereum.org/en/developers/docs/networking-layer/#whisper), a networking layer of Ethereum that allowed sending messages through the blockchain. My I-don't-have-a-clue-how-this-tech-works self loved the idea! That's when I started writing some code to recreate it, for fun!
+Diving into the [Ethereum ecosystem](https://fr.wikipedia.org/wiki/Ethereum), I found out about [Ethereum Whisper](https://ethereum.org/en/developers/docs/networking-layer/#whisper), a networking layer that allowed sending messages through the chain. Although I had no idea of blockchain worked, I loved the idea! That's when I started writing some code to recreate it, for fun!
 
-Learning about how the blockchain works and its implications, I soon realized that this technology is not appropriate for the use-case (the Ethereum people also understood that, and Whisper doesn't exist anymore).
+Actually diving in the blockchain intricacies and implications, I soon realized this it's just not appropriate for the use-case (actually, the Ethereum people also understood that, and Whisper doesn't exist anymore 😂).
 
-Doing my research, I also found out about the [Scuttlebut protocol](https://en.wikipedia.org/wiki/Secure_Scuttlebutt), which had a similar concept and a very interesting technology stack.
+Doing some more research, I found out about the [Scuttlebut protocol](https://en.wikipedia.org/wiki/Secure_Scuttlebutt), which had a similar core idea and a very interesting technology stack!
 
-Considering this, I decided to keep some ideas from both -- targeting an audience that cares about privacy and security before all else -- and continued working on my app. This went on for a few years, which actually helped a lot with both learning Python and its intricacies, and showing profs and recruiters that I was qualified with the language. I learned so much about cryptography, Python, but also how to design an app, how to think thoroughly of all the edge cases...
+Considering this, I decided to keep some ideas from both -- targeting an audience that cares about privacy and security before all else -- and continued working on my app. This went on for a few months. This endeavour helped a lot with learning programming, Python and its intricacies, the libraries... but also showing profs and recruiters that I was qualified on this topic. I learned so much about cryptography, Python, how to design an app and think thoroughly of all the edge cases... I'm glad I got to work on that!
 
-In 2020, as part of my Bachelor's Degree, I got to work on the app with very different people (a UI/UX designer, a marketing guy, a CS student majoring in network and cybersec, a C dev), which helped a lot getting the app off the ground. We advertised its use among students, and it actually gained traction for a while, with a peak at around 50 users, which is very good for such a niche app!
+In 2020, as part of my Bachelor's Degree, I had the opportunity to work with very different people on the app (a UI/UX designer, a marketing guy, a CS student majoring in network and cybersec, a C dev), which helped quite a lot getting the app off the ground.
+We advertised its use among other students, and it actually gained traction for a while, with a peak at around 50 users -- a pretty good impact for such a niche app!
 
-To this day, I continue working on-and-off on the app, although at the moment there has been a lot of architectural changes since version 1, and it doesn't work right now. But hey, I didn't work on this to be a competitor to Whatsapp or the likes ; it was first and foremost a fun and exciting journey!
+To this day, I continue working on it on-and-off, although there has recently been a lot of architectural changes since first release and it doesn't work out-of-the-box. But hey, I didn't work on this to be a competitor to Whatsapp or the likes: it was first and foremost a fun and exciting journey!
 
 Thanks for reading! If you'd like to check it out, it's [available on GitHub](https://github.com/sami-dca/sami_dca)!
