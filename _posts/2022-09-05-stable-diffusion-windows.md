@@ -7,6 +7,7 @@ tags: stable-diffusion self-hosting windows github
 categories: 
 related_posts: false
 thumbnail: assets/img/0-acatonacar.png
+telemetry_id: 2022-stable-diffusion-windows
 ---
 
 > This blog post was written at a time before AUTOMATIC1111's webui. Today, it is a much better choice.

@@ -1,9 +1,7 @@
 <script>
-    function getPageName() {
-        return window.location.href.slice("https://lilian.boulard.fr/blog/".length, -1).replace("/", "-");
-    }
     function getViews() {
-        fetch(`https://telemetry.boulard.fr/counter/blog/${getPageName()}`, {"method": "GET"})
+        let viewsElement = document.getElementById("views");
+        fetch(`https://telemetry.boulard.fr/counter/blog/${viewsElement.dataset.article}`, {"method": "GET"})
         .then(response => {
             if (!response.ok) {
             throw new Error(`Could not get article views ; HTTP ${response.status}`);
@@ -11,15 +9,19 @@
             return response.json();
         })
         .then(data => {
-            document.getElementById("views").textContent = `<i class="fas fa-eye fa-sm">${data["views"]}`;
+            viewsElement.textContent = `<i class="fas fa-eye fa-sm">${data["views"]}`;
         })
         .catch(error => {
             throw new Error(`Could not get article views ; ${error}`);
         });
     }
-    function ready() {
-        fetch(`https://telemetry.boulard.fr/counter/blog/${getPageName()}`, {"method": "POST"}).then(response => {}).catch(error => {});
+
+    function registerView() {
+        fetch(`https://telemetry.boulard.fr/counter/blog/${document.getElementById("views").dataset.article}`, {"method": "POST"})
+        .then(response => {})
+        .catch(error => {});
     }
-    document.addEventListener("DOMContentLoaded", ready);
+
+    document.addEventListener("DOMContentLoaded", registerView);
     document.addEventListener("DOMContentLoaded", getViews);
 </script>

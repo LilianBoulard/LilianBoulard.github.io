@@ -81,7 +81,7 @@ pagination:
 
                     <p class="post-meta">
                       {{ read_time }} min read &nbsp; &middot; &nbsp;
-                      <a id="views"><i class="fas fa-eye fa-sm"></i></a> &nbsp; &middot; &nbsp;
+                      <a id="views" article="{{ post.telemetry_id }}"><i class="fas fa-eye fa-sm"></i></a> &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                         <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
