@@ -20,10 +20,8 @@ layout: default
       })
       .then(data => {
         document.getElementById("views").textContent = data["views"];
-        document.getElementById("views-container").style.visibility = 'visible';
       })
       .catch(error => {
-        document.getElementById("views-container").style.visibility = 'hidden';
         throw new Error(`Could not get article views ; ${error}`);
       });
   }
@@ -56,10 +54,8 @@ layout: default
           {% endfor -%}
       {% endif %}
 
-      <div id="views-container" style="visibility: hidden;">
-        &nbsp; &middot; &nbsp;
-        <i id="views" class="fas fa-eye fa-sm"></i> &nbsp;<!-- Content is populated by JS -->
-      </div>
+      &nbsp; &middot; &nbsp;
+      <a><i id="views" class="fas fa-eye fa-sm"></i></a> &nbsp;
 
       {%- if categories != "" %}
       &nbsp; &middot; &nbsp;
