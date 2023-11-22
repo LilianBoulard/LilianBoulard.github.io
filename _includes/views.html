@@ -2,7 +2,7 @@
 
     function getViews() {
         let viewsElements = document.getElementsByClassName("views");
-        for (let viewsElement in viewsElements) {
+        for (let viewsElement of viewsElements) {
             fetch(`https://telemetry.boulard.fr/counter/blog/${viewsElement.dataset.article}`, {"method": "GET"})
             .then(response => {
                 if (!response.ok) {
