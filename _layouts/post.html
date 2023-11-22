@@ -11,7 +11,7 @@ layout: default
     return window.location.href.slice("https://lilian.boulard.fr/blog/".length, -1).replace("/", "-");
   }
   function getViews() {
-    fetch(`https://telemetry.boulard.fr/counter/blog/${getPageName()}`, {"method": "GET", "Access-Control-Allow-Headers": "*"})
+    fetch(`https://telemetry.boulard.fr/counter/blog/${getPageName()}`, {"method": "GET"})
       .then(response => {
         if (!response.ok) {
           throw new Error(`Could not get article views ; HTTP ${response.status}`);
@@ -29,7 +29,7 @@ layout: default
       });
   }
   function ready() {
-    fetch(`https://telemetry.boulard.fr/counter/blog/${getPageName()}`, {"method": "POST", "Access-Control-Allow-Headers": "*"}).then(response => {}).catch(error => {});
+    fetch(`https://telemetry.boulard.fr/counter/blog/${getPageName()}`, {"method": "POST"}).then(response => {}).catch(error => {});
   }
   document.addEventListener("DOMContentLoaded", ready);
   document.addEventListener("DOMContentLoaded", getViews);
