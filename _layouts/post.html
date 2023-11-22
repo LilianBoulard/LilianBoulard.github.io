@@ -19,8 +19,7 @@ layout: default
         return response.json();
       })
       .then(data => {
-        let info = JSON.stringify(data);
-        document.getElementById("views").textContent = info["views"];
+        document.getElementById("views").textContent = data["views"];
         document.getElementById("views-container").style.visibility = 'visible';
       })
       .catch(error => {
