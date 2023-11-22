@@ -11,7 +11,7 @@
             return response.json();
         })
         .then(data => {
-            document.getElementById("views").textContent = data["views"];
+            document.getElementById("views").textContent += data["views"];
         })
         .catch(error => {
             throw new Error(`Could not get article views ; ${error}`);
