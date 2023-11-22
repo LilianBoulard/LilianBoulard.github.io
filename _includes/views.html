@@ -1,19 +1,22 @@
 <script>
+
     function getViews() {
-        let viewsElement = document.getElementById("views");
-        fetch(`https://telemetry.boulard.fr/counter/blog/${viewsElement.dataset.article}`, {"method": "GET"})
-        .then(response => {
-            if (!response.ok) {
-            throw new Error(`Could not get article views ; HTTP ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            viewsElement.textContent += data["views"];
-        })
-        .catch(error => {
-            throw new Error(`Could not get article views ; ${error}`);
-        });
+        let viewsElements = document.getElementsByClassName("views");
+        for (let viewsElement in viewsElements) {
+            fetch(`https://telemetry.boulard.fr/counter/blog/${viewsElement.dataset.article}`, {"method": "GET"})
+            .then(response => {
+                if (!response.ok) {
+                throw new Error(`Could not get article views ; HTTP ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                viewsElement.textContent += data["views"];
+            })
+            .catch(error => {
+                throw new Error(`Could not get article views ; ${error}`);
+            });
+        }
     }
 
     function registerView() {
@@ -22,6 +25,4 @@
         .catch(error => {});
     }
 
-    document.addEventListener("DOMContentLoaded", registerView);
-    document.addEventListener("DOMContentLoaded", getViews);
 </script>
