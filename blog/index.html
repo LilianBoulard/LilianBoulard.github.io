@@ -13,6 +13,8 @@ pagination:
     after: 3  # The number of links after the current page
 ---
 
+{% include views.html %}
+
 <div class="post">
 
   {% assign blog_name_size = site.blog_name | size %}
@@ -79,6 +81,7 @@ pagination:
 
                     <p class="post-meta">
                       {{ read_time }} min read &nbsp; &middot; &nbsp;
+                      <a id="views"><i class="fas fa-eye fa-sm"></i></a> &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                         <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
