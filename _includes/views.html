@@ -20,7 +20,7 @@
     }
 
     function registerView() {
-        fetch(`https://telemetry.boulard.fr/counter/blog/${document.getElementsByClass("views")[0].dataset.article}`, {"method": "POST"})
+        fetch(`https://telemetry.boulard.fr/counter/blog/${document.getElementsByClassName("views")[0].dataset.article}`, {"method": "POST"})
         .then(response => {})
         .catch(error => {});
     }
