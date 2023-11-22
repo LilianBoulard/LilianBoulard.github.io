@@ -6,6 +6,35 @@ layout: default
 {%- assign tags = page.tags | join: "" -%}
 {%- assign categories = page.categories | join: "" -%}
 
+<script>
+  function getPageName() {
+    return window.location.href.slice("https://lilian.boulard.fr/blog/".length, -1).replace("/", "-");
+  }
+  function getViews() {
+    fetch(`https://telemetry.boulard.fr/counter/blog/${getPageName()}`, {"method": "GET"})
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Could not get article views ; response not ok");
+        }
+        return response.json();
+      })
+      .then(data => {
+        let info = JSON.stringify(data);
+        document.getElementById("views").textContent = info["views"];
+        document.getElementById("views-container").style.visibility = 'visible';
+      })
+      .catch(error => {
+        document.getElementById("views-container").style.visibility = 'hidden';
+        throw new Error("Could not get article views ; unknown error");
+      });
+  }
+  function ready() {
+    fetch(`https://telemetry.boulard.fr/counter/blog/${getPageName()}`, {"method": "POST"}).then(response => {}).catch(error => {});
+  }
+  document.addEventListener("DOMContentLoaded", ready);
+  document.addEventListener("DOMContentLoaded", getViews);
+</script>
+
 {% if page._styles %}
 <!-- Page/Post style -->
 <style type="text/css">
@@ -27,6 +56,11 @@ layout: default
           <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
+
+      <div id="views-container" style="visibility: hidden;">
+        &nbsp; &middot; &nbsp;
+        <i id="views" class="fas fa-eye fa-sm"></i> &nbsp;<!-- Content is populated by JS -->
+      </div>
 
       {%- if categories != "" %}
       &nbsp; &middot; &nbsp;
